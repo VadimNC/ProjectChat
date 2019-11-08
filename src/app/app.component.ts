@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.less']
 })
 export class AppComponent {
-  title = 'ProjectChat';
+  links = [
+    { path: '/main', label: 'Главная', active: 'button-active'},
+    { path: '/chat', label: 'чат', active: 'button-active'}
+  ];
 }
